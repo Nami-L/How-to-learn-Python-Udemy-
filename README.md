@@ -20,3 +20,23 @@ En python la entrada de datos se realiza usando la función input (). Esta funci
 
 ## Generar valores aleatorios
 Function randint() is part of random modul, allow us to generate random numbers
+
+## Operadores Lógicos
+Se utilizan para realizar operaciones lógicas con valores booleanos.
+- Operador lógico and 
+- Operador lógico or
+- Operador lógico negado
+
+## Procedencia de Operadores en Pyton
+## Resumen General
+
+| Nivel Jerárquico        | Operadores                         |
+|--------------------------|-------------------------------------|
+| 1. Operador de paréntesis | ()                                |
+| 2. Exponente             | **                                |
+| 3. Unarios               | +x , -x                           |
+| 4. Multiplicación, División, Módulo | *, /, //, %            |
+| 5. Suma y Resta          | + , -                             |
+| 6. Comparación           | ==, !=, <= , >=                   |
+| 7. Operadores lógicos    | not, and, or                      |
+| 8. Operadores de asignación | = , +=                         |
