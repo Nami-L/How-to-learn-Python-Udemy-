@@ -40,3 +40,27 @@ Se utilizan para realizar operaciones lógicas con valores booleanos.
 | 6. Comparación           | ==, !=, <= , >=                   |
 | 7. Operadores lógicos    | not, and, or                      |
 | 8. Operadores de asignación | = , +=                         |
+
+## Diagrama de Flujo
+
+Un diagrama de flujo es una representación gráfica de los pasos a ejectgurar para lograr un resultado específico.
+Se utilizand simbolos estandaraizados para represetnar distintos tipo de acciones.
+
+- Óvalo: Representa el inicio o fin de un proceso.
+- Rectángulo: Muestra instrucciones o acciones a ejecutar.
+- Rombo: indica decisiones con múltiples flujos dependiendo si la respuesta es verdadera o falsa.
+- Flechas : Dirigen el flujo del proceso, mostrando la dirección en que se mueven la secuencia de acciones.
+
+![Diagrama de flujo](flujo.ong)
+
+## Sentencia if elif else
+
+La sentencia elif es una abreviatura de "else if", y se utiliza cuando necesitamos verificar múltiples condiciones, una tras otra.
+
+## Operador Ternario
+
+Es una forma compacta de agregar una condición y le objetivo es asignar un valor a una variable dependiendo del valor de la condición.
+
+``` python
+ resultado = valor_si_verdadero if condicion else valor_si_falso
+```
