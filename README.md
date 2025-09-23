@@ -64,3 +64,50 @@ Es una forma compacta de agregar una condición y le objetivo es asignar un valo
 ``` python
  resultado = valor_si_verdadero if condicion else valor_si_falso
 ```
+
+## Modulo 7. Ciclos en Python
+
+### While
+
+Repite una serie de instrucciones mientras la condición a evaluar sea verdadera
+
+
+``` python
+# Sintaxis ciclo while
+
+while condicion:
+    # Bloque de código a ejectutar
+
+# Ejemplo 
+contador = 1
+
+while contador <= 5:
+    print(contador, end = ' ')
+    contador +=1
+```
+### For
+Itera o recorre una secuencia de valores, por ejemplo los caracteres de una cadena, una lista entre otros. También ejecuta un bloque de código por cada elemento de la secuencia
+``` python
+# Sintaxis ciclo for
+
+for variable in secuencia:
+    #bloque codigo a ejecutar
+
+
+# Ejemplo cilo for
+cadena = 'Hola Mundo'
+for letra in cadena:
+    print(letra,end =' ' )    
+
+# Salida consola
+
+H o l a M u n d o
+```
+
+
+### Range
+
+Es una función incorporada que genera una secuencia de números.
+``` python
+    range (inicio, fin, incremento)
+```
